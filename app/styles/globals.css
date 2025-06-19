@@ -2,6 +2,17 @@
 @import "tailwindcss";
 
 body {
-  background-color: #1C1917;
+  background-color: var(--color-bg);
   font-family: 'Inter', sans-serif;
+}
+
+
+@theme {
+  --color-bg: #52493a;
+  --color-card1: #7c8569;
+  --color-card2: #a4ab80;
+  --color-text: #e8e0ae;
+  --color-text-secondary: #574435;
+  --color-accent: #de733e;
+  --color-accent-hover: #f0a16b;
 }
